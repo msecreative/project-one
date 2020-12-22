@@ -1,8 +1,8 @@
 %common {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: rgb(122, 132, 142);
-    line-height: 28px;
+    line-height: 2.8rem;
 }
 
 %flex {
@@ -17,17 +17,17 @@
 }
 
 %padding {
-    padding: 10px 20px;
+    padding: 1.0rem 2.0rem;
 }
 
 %space,
 .space {
-    padding: 100px 0;
+    padding: 10.0rem 0;
 }
 
 %container,
 .container {
-    width: calc(100% - 200px);
+    width: calc(100% - 20.0rem);
     margin: auto;
 }
 
