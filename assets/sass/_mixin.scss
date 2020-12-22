@@ -1,0 +1,10 @@
+@mixin col($colum) {
+    flex-basis: $colum /12 *100%;
+    max-width: $colum /12 *100%;
+}
+
+@mixin transition($delay) {
+    -webkit-transition: all $delay ease;
+    -o-transition: all $delay ease;
+    transition: all $delay ease
+}
